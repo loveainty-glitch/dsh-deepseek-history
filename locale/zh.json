@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "DeepSeek 历史助手",
+    "description": "连接 DeepSeek 网页版账号，把 chat.deepseek.com 的所有对话与历史自动整理成按日期分文件夹的 Markdown，并导入为 DeepSeek Harness 原生会话（增量去重）。面板在页面右下角的「🕘」浮动按钮；也可用 deepseek_history_status / list / sync 工具。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}
