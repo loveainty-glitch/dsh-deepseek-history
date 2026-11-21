@@ -6,11 +6,11 @@
   "author": "dsh-deepseek-history contributors",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-deepseek-history.git"
+    "url": "git+https://github.com/loveainty-glitch/dsh-deepseek-history.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-deepseek-history#readme",
+  "homepage": "https://github.com/loveainty-glitch/dsh-deepseek-history#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-deepseek-history/issues"
+    "url": "https://github.com/loveainty-glitch/dsh-deepseek-history/issues"
   },
   "keywords": [
     "dsh",
