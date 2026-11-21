@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "DeepSeek history assistant",
+    "description": "Connect your DeepSeek web account, organize all chat.deepseek.com conversations into dated Markdown folders, and import them as native DeepSeek Harness sessions with incremental dedup. Open the panel from the floating button at the bottom right, or use the deepseek_history_status / list / sync tools.",
+    "detail": "docs/DETAIL.md"
+  }
+}
