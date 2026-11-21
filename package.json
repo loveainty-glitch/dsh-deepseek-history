@@ -1,6 +1,6 @@
 {
   "name": "dsh-deepseek-history",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "把 DeepSeek 网页版（chat.deepseek.com）的对话历史整理成按日期分文件夹的 Markdown 并导入 DeepSeek Harness 为原生会话；支持令牌连接、增量去重与 agent 工具。Sync DeepSeek web chat history into dated Markdown folders and native Harness sessions.",
   "license": "MIT",
   "author": "dsh-deepseek-history contributors",
