@@ -1,0 +1,7 @@
+# dsh-deepseek-history —— DSH bundle patch
+- insert:
+    - id: dsh-deepseek-history
+      name: dsh-deepseek-history
+      config:
+        # 总开关。改成 false 就不注册页面按钮、HTTP 路由和 agent 工具。
+        enabled: true
