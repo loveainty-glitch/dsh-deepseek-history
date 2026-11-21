@@ -1,0 +1,52 @@
+{
+  "name": "dsh-deepseek-history",
+  "version": "1.0.0",
+  "description": "把 DeepSeek 网页版（chat.deepseek.com）的对话历史整理成按日期分文件夹的 Markdown 并导入 DeepSeek Harness 为原生会话；支持令牌连接、增量去重与 agent 工具。Sync DeepSeek web chat history into dated Markdown folders and native Harness sessions.",
+  "license": "MIT",
+  "author": "dsh-deepseek-history contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-deepseek-history.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-deepseek-history#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-deepseek-history/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "chat-history",
+    "history",
+    "session-import",
+    "markdown-export"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "src",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
